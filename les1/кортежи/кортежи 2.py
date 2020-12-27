@@ -1,0 +1,10 @@
+a=('Кирилл','Чайка','19')
+people=[]
+people.append(a)
+b=('Иван','Иванов','30')
+people.append(b)
+c=('Петр','Андреевич','34')
+people.append(c)
+print(people)
+people.sort(key=lambda x: x[1])
+print(people)

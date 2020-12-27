@@ -1,0 +1,10 @@
+s=[]
+print(id(s))
+s.append('Артур')
+s.append('Владислав')
+s.append('Марат')
+s.append('Кирилл')
+print(s)
+print(id(s))
+s.sort()
+print(s)
